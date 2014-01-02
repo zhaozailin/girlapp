@@ -17,6 +17,7 @@ public class AppController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String queryList(Model model) {
 //        model.addAttribute("apps", appService.queryList());
+        
         return "home";
     }
 }
